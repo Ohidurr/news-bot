@@ -1,10 +1,8 @@
-// require dot env,  declare vars
-require ('dotenv').config
+require ('dotenv').config()
 const { Client, GatewayIntentBits } = require('discord.js');
-const { TwitterApi } = require('twitter-api-v2').default;
+const { TwitterApi } = require('twitter-api-v2');
 
 const client = new Client({intents: [GatewayIntentBits.Guilds]});
-console.log(require('twitter-api-v2'));
 const twitter = new TwitterApi(process.env.TWITTER_BEARER_TOKEN).readOnly;
 
 const accounts = ['Genshin Impact','HonkaiStar Rail','MarvelRivals'];
@@ -34,10 +32,10 @@ async function checkTweets () {
         }
     }
 }
-client.once('ready'), () => {
+client.once('ready', () => {
     console.log(`✅ Logged in as ${client.user.tag}`);
     setInterval(checkTweets, 1000 * 60 * 10)
-}
+})
 
 client.login(process.env.DISCORD_BOT_TOKEN)
 
