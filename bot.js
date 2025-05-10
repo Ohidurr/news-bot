@@ -5,7 +5,7 @@ const { TwitterApi } = require('twitter-api-v2').default;
 
 const client = new Client({intents: [GatewayIntentBits.Guilds]});
 console.log(require('twitter-api-v2'));
-const twitter = new TwitterAPi(process.env.TWITTER_BEARER_TOKEN).readOnly;
+const twitter = new TwitterApi(process.env.TWITTER_BEARER_TOKEN).readOnly;
 
 const accounts = ['Genshin Impact','HonkaiStar Rail','MarvelRivals'];
 const keywords = ['code','redeem','primogem','stellar jade','gift','reward','login'];
