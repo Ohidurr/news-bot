@@ -65,7 +65,4 @@ async function simulateTweetLogic(channel) {
   }
 }
 
-module.exports = {
-  postTestTweets,
-  simulateTweetLogic
-};
+module.exports = { postTestTweets,simulateTweetLogic };
