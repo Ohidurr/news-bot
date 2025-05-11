@@ -13,18 +13,6 @@ A lightweight Discord bot that monitors selected Twitter/X accounts for new game
 
 ---
 
-## 📦 Project Structure
-
-discord-promo-bot/
-├── bot.js                # Main entry file
-├── .env                  # Environment variables
-├── setttings.js          # Keywords, accounts, test flag
-├── config/
-│   ├── twitterConfig.js  # Twitter API setup
-│   └── discordConfig.js  # Discord channel utils
-├── tests/
-│   └── testTweet.js      # Mock tweet testing
-
 ---
 
 ## ⚙️ Setup
