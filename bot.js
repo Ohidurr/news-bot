@@ -2,7 +2,7 @@ require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
 const { TEST_MODE, DRY_RUN } = require('./settings');
 const { postTestTweets, simulateTweetLogic } = require('./tests/testTweet');
-const { fetchTweetsAndFilter } = require('./config/twitterConfig'); // ✅ Corrected name
+const { fetchTweetsFilter } = require('./config/twitterConfig'); // ✅ Corrected name
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds]
@@ -13,7 +13,7 @@ async function runProd(channel) {
   console.log(`⏱️ [${new Date().toLocaleTimeString()}] Polling for new tweets...`);
 
   try {
-    const tweets = await fetchTweetsAndFilter();
+    const tweets = await fetchTweetsFilter();
 
     if (tweets.length === 0) {
       console.log('ℹ️ No new tweets found.');
