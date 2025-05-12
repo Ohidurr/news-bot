@@ -2,10 +2,43 @@ require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
 const { TEST_MODE, DRY_RUN } = require('./settings');
 const { postTestTweets, simulateTweetLogic } = require('./tests/testTweet');
-const { fetchTweetsFilter } = require('./config/twitterConfig'); 
+const { fetchTweetsAndFilter } = require('./config/twitterConfig'); // ✅ Corrected name
+
 const client = new Client({
   intents: [GatewayIntentBits.Guilds]
 });
+
+// ✅ Production runner with polling
+async function runProd(channel) {
+  console.log(`⏱️ [${new Date().toLocaleTimeString()}] Polling for new tweets...`);
+
+  try {
+    const tweets = await fetchTweetsAndFilter();
+
+    if (tweets.length === 0) {
+      console.log('ℹ️ No new tweets found.');
+      return;
+    }
+
+    for (const { user, tweet } of tweets) {
+      await channel.send({
+        content: `📢 New promo code from @${user}:\n\nhttps://x.com/${user}/status/${tweet.id}`
+      });
+
+      console.log(`✅ Posted tweet from @${user}: ${tweet.text}`);
+
+      // Optional: auto-delete after 15 seconds
+      setTimeout(() => {
+        channel.messages.fetch({ limit: 1 }).then(messages => {
+          const first = messages.first();
+          if (first?.author.bot) first.delete().catch(console.error);
+        });
+      }, 15000);
+    }
+  } catch (err) {
+    console.error('❌ Error during polling:', err);
+  }
+}
 
 client.once('ready', async () => {
   console.log(`✅ Logged in as ${client.user.tag}`);
@@ -25,23 +58,11 @@ client.once('ready', async () => {
       return;
     }
 
-    console.log('🚀 PROD mode — fetching real tweets from Twitter API');
+    // ✅ Initial PROD fetch
+    await runProd(channel);
 
-    const tweets = await fetchTweetsFilter();
-
-    for (const { user, tweet } of tweets) {
-      await channel.send({
-        content: `📢 New promo code from @${user}:\n\nhttps://x.com/${user}/status/${tweet.id}`
-      });
-
-      // Optional: auto-delete after 10s
-      setTimeout(() => {
-        channel.messages.fetch({ limit: 1 }).then(messages => {
-          const first = messages.first();
-          if (first?.author.bot) first.delete().catch(console.error);
-        });
-      }, 10000);
-    }
+    // 🔁 Schedule polling every 15 minutes
+    setInterval(() => runProd(channel), 1000 * 60 * 15);
 
   } catch (err) {
     console.error('❌ Error during startup:', err);

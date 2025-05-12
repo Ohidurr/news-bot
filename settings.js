@@ -4,8 +4,8 @@ module.exports = {
     LIMIT_TWEETS: 5,
     keywords: [
       'code', 'redeem', 'primogem', 'stellar jade', 'gift', 'reward',
-      'login', 'free', 'primo', 'gems'
+      'login', 'free', 'primo', 'gems','Redemption','Codes','livestream'
     ],
-    accounts: ['Gacha_Zone']
+    accounts: ['ittosminimelon','GenshinImpact','Gacha_Zone']
     //['GenshinImpact', 'honkaistarrail', 'MarvelRivals']
   };
