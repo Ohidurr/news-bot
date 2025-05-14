@@ -7,14 +7,14 @@ module.exports = {
     'login', 'free', 'primo', 'gems','Redemption','Codes','livestream','jades','hsr',
     'test'
   ],
-  accounts: ['Gacha_Zone'],
+  accounts: ['WahidXD'],
   //['ittosminimelon','GenshinImpact','Gacha_Zone','WahidXD']
   //['GenshinImpact', 'honkaistarrail', 'MarvelRivals','ZZZ_EN']
 
   rssFeeds: [
     {
       name: 'Gacha_Zone',
-      url: 'https://xcancel.com/Gacha_Zone/rss'
+      url: 'https://xcancel.com/WahidXD/rss'
     }
   ]
 };
