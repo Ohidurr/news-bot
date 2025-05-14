@@ -5,9 +5,9 @@ const Parser = require('rss-parser');
 const parser = new Parser();
 
 const { DISCORD_CHANNEL_ID, keywords, rssFeeds } = require('./settings');
-const { loadPostedIds, savePostedIds } = require('./store');
+const { loadPostedIDs, savePostedIDs } = require('./store');
 
-const posted = loadPostedIds('postedRss.json');
+const posted = loadPostedIDs();
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
@@ -31,7 +31,7 @@ async function fetchAndPost(channel) {
           await channel.send(`📢 New promo from ${name}:\n${item.link}`);
           console.log(`✅ Posted: ${item.link}`);
           posted.add(item.link);
-          savePostedIds(posted, 'postedRss.json');
+          savePostedIDs(posted);
           return;
         }
       }

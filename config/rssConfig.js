@@ -1,9 +1,9 @@
 const Parser = require('rss-parser');
 const parser = new Parser();
 const { rssFeeds, keywords } = require('../settings');
-const { loadPostedIds, savePostedIds } = require('../store');
+const { loadPostedIDs, savePostedIDs } = require('../store');
 
-const posted = loadPostedIds('postedRss.json');
+const posted = loadPostedIDs();
 
 async function fetchRss() {
   const results = [];
@@ -27,7 +27,7 @@ async function fetchRss() {
     }
   }
 
-  savePostedIds(posted, 'postedRss.json');
+  savePostedIDs(posted);
   return results;
 }
 

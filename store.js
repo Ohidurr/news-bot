@@ -1,6 +1,6 @@
 // store.js
 const fs = require('fs');
-const path = './postedTweets.json';
+const path = './posted.json';
 
 function loadPostedIDs() {
   if (!fs.existsSync(path)) return new Set();

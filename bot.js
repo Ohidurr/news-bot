@@ -2,7 +2,7 @@ require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
 const { TEST_MODE, DRY_RUN } = require('./settings');
 const { postTestTweets, simulateTweetLogic } = require('./tests/testTweet');
-const { fetchRss } = require('./config/rss.config'); // ✅ RSS logic here
+const { fetchRss } = require('./config/rssConfig'); // ✅ RSS logic here
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds]

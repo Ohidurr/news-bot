@@ -13,7 +13,7 @@ module.exports = {
 
   rssFeeds: [
     {
-      name: 'Gacha_Zone',
+      name: 'WahidXD',
       url: 'https://xcancel.com/WahidXD/rss'
     }
   ]
