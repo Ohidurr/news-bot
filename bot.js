@@ -1,62 +1,51 @@
 require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
-const { TEST_MODE, DRY_RUN } = require('./settings');
-const { postTestTweets, simulateTweetLogic } = require('./tests/testTweet');
-const { fetchRss } = require('./config/rssConfig'); // ✅ RSS logic here
+const { apiSources } = require('./settings');
+const { loadPostedIDs, savePostedIDs } = require('./store');
+const fetch = require('node-fetch');
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds]
 });
 
-// ✅ RSS polling logic
-async function runProd(channel) {
-  console.log(`⏱️ [${new Date().toLocaleTimeString()}] Polling RSS feeds...`);
+const posted = loadPostedIDs();
 
+async function fetchCodesFromAPI(game, apiUrl) {
   try {
-    const matches = await fetchRss();
-
-    if (matches.length === 0) {
-      console.log('ℹ️ No new promo tweets found.');
-      return;
-    }
-
-    for (const { source, item } of matches) {
-      await channel.send(`📢 New promo from ${source}:\n${item.link}`);
-      console.log(`✅ Posted from ${source}: ${item.title}`);
-    }
+    const res = await fetch(apiUrl);
+    const data = await res.json();
+    return data || [];
   } catch (err) {
-    console.error('❌ Error during RSS polling:', err.message);
+    console.error(`❌ Failed to fetch ${game}:`, err.message);
+    return [];
   }
 }
 
-// ✅ Bot entry point
+async function runProd(channel) {
+  console.log(`⏱️ [${new Date().toLocaleTimeString()}] Checking for promo codes...`);
+
+  for (const { name, game, apiUrl } of apiSources) {
+    const codes = await fetchCodesFromAPI(game, apiUrl);
+
+    for (const code of codes) {
+      if (!posted.has(code.code)) {
+        const message = `🎁 **New ${name} Code from ${code.source}**\n` +
+                        `🔑 Code: **${code.code}**\n` +
+                        `🎉 Rewards: ${code.rewards.join(', ')}\n` +
+                        `⏳ Expires: ${new Date(code.expires).toLocaleString()}`;
+        await channel.send(message);
+        posted.add(code.code);
+        savePostedIDs(posted);
+      }
+    }
+  }
+}
+
 client.once('ready', async () => {
   console.log(`✅ Logged in as ${client.user.tag}`);
-
-  try {
-    const channel = await client.channels.fetch(process.env.DISCORD_CHANNEL_ID);
-
-    if (DRY_RUN) {
-      console.log('🧪 DRY_RUN is enabled — running logic without posting');
-      await simulateTweetLogic(channel);
-      return;
-    }
-
-    if (TEST_MODE) {
-      console.log('🧪 TEST_MODE is enabled — posting mock tweets to Discord');
-      await postTestTweets(channel);
-      return;
-    }
-
-    // 🚀 Initial fetch
-    await runProd(channel);
-
-    // 🔁 Poll every 15 minutes
-    setInterval(() => runProd(channel), 1000 * 60 )//* 15);
-
-  } catch (err) {
-    console.error('❌ Error during startup:', err.message);
-  }
+  const channel = await client.channels.fetch(process.env.DISCORD_CHANNEL_ID);
+  await runProd(channel);
+  setInterval(() => runProd(channel), 1000 * 60 * 5); // every 5 minutes
 });
 
 client.login(process.env.DISCORD_BOT_TOKEN);

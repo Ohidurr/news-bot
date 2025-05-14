@@ -1,5 +1,11 @@
 const Parser = require('rss-parser');
-const parser = new Parser();
+const parser = new Parser({
+  requestOptions: {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (DiscordBot +https://discordapp.com)'
+    }
+  }
+});
 const { rssFeeds, keywords } = require('../settings');
 const { loadPostedIDs, savePostedIDs } = require('../store');
 
