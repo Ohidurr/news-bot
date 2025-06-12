@@ -1,0 +1,104 @@
+{
+  "genshin": {
+    "MASTERSKIRK0618": {
+      "rewards": [
+        "Primogem ×100 Mystic Enhancement Ore ×10"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-07T03:42:36.661Z"
+    },
+    "LWKC638ULB16": {
+      "rewards": [
+        "10k mora, ten adventurer's experience, five fine enhancement ore, five stir-fried fish noodles, and five jueyun chili chicken"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-07T03:42:36.941Z"
+    },
+    "VOIDSTAR0618": {
+      "rewards": [
+        "Primogem ×100 Mora ×50,000"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-07T03:42:37.084Z"
+    },
+    "YOURSPACETIME": {
+      "rewards": [
+        "Primogem ×100 Hero's Wit ×5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-07T03:42:37.376Z"
+    },
+    "GS57YTSNLJ": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-07T23:40:10.434Z"
+    }
+  },
+  "hkrpg": {
+    "WAJ7CVBC4SG3": {
+      "rewards": [
+        "50 stellar jade and 10k credits"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-07T03:42:37.640Z"
+    },
+    "HYACINEHEALS": {
+      "rewards": [
+        "three traveler's guides and two golden honycakes"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-07T03:42:37.851Z"
+    },
+    "CIPHERLOOT": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-11T05:28:17.241Z"
+    },
+    "7B36DCTC5SZ7": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-12T00:28:27.259Z"
+    }
+  },
+  "nap": {
+    "ZENLESSGIFT": {
+      "rewards": [
+        "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-07T03:42:43.159Z"
+    },
+    "ZZZ20NEWSEASON": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-07T03:42:43.429Z"
+    },
+    "ZZZ2NDSEASON": {
+      "rewards": [
+        "50 polychrome"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-07T03:42:43.582Z"
+    }
+  }
+}
