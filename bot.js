@@ -1,6 +1,7 @@
 require('dotenv').config();
 const { apiSources, DRY_RUN } = require('./settings');
 const { Client, GatewayIntentBits } = require('discord.js');
+const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const { loadPostedIDs, savePostedIDs } = require('./store');
 const { loadCodes, saveCodes } = require('./config/logConfig');
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
@@ -17,6 +18,12 @@ const gameEmojis = {
   'starrail': '🚂',
   'genshin': '🌀',
   'zzz': '💤'
+};
+
+const redeemLinks = {
+  'starrail': 'https://hsr.hoyoverse.com/gift',
+  'genshin': 'https://genshin.hoyoverse.com/en/gift',
+  'zzz': 'https://zenless.hoyoverse.com/redemption'
 };
 
 async function fetchCodesFromAPI(game, apiUrl) {
@@ -72,7 +79,14 @@ async function runProd(channel) {
           console.log(`[DRY_RUN] Would post:\n${message}\n`);
         } else {
           try {
-            const sent = await channel.send(message);
+            const row = new ActionRowBuilder().addComponents(
+  new ButtonBuilder()
+    .setLabel('Redeem Here')
+    .setStyle(ButtonStyle.Link)
+    .setURL(redeemLinks[game.toLowerCase()] || 'https://www.hoyoverse.com/')
+);
+
+const sent = await channel.send({ content: message, components: [row] });
             console.log(`✅ Posted to Discord: ${code.code}`);
 
             // Only log if posted
@@ -112,7 +126,7 @@ client.once('ready', async () => {
   try {
     const channel = await client.channels.fetch(process.env.DISCORD_CHANNEL_ID);
     await runProd(channel);
-    setInterval(() => runProd(channel), 1000 * 60 * 5);
+    setInterval(() => runProd(channel), 1000 * 60 * 3);
   } catch (err) {
     console.error('❌ Startup failed:', err.message);
   }
