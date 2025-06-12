@@ -13,6 +13,12 @@ const client = new Client({
 const posted = loadPostedIDs();
 const codeLog = loadCodes();
 
+const gameEmojis = {
+  'starrail': '🚂',
+  'genshin': '🌀',
+  'zzz': '💤'
+};
+
 async function fetchCodesFromAPI(game, apiUrl) {
   try {
     const res = await fetch(apiUrl);
@@ -53,16 +59,14 @@ async function runProd(channel) {
       for (const code of newCodes) {
         console.log(`➡️ Processing code: ${code.code}`);
 
-        const rewardText = Array.isArray(code.rewards) ? code.rewards.join(', ') : code.rewards || 'N/A';
-        const safeRewardText = rewardText.replace(/[*_~`]/g, '\\$&');
-        const expiresFormatted = code.expires
-          ? new Date(code.expires).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })
-          : 'Unknown';
+        const emoji = gameEmojis[game.toLowerCase()] || '🔔';
         const formattedName = name.replace(/(^\w|\s\w)/g, c => c.toUpperCase());
 
-        const message = `🔔 **New code for ${formattedName}**\n` +
-                        `Use \`${code.code}\` for **${safeRewardText}**\n` +
-                        `Expiration date: ${expiresFormatted}`;
+        const rewardText = Array.isArray(code.rewards) && code.rewards.length > 0
+          ? code.rewards.join(', ')
+          : 'reward not listed, but give it a try!';
+
+        const message = `${emoji} ${formattedName}:\n[${code.code}] = ${rewardText}`;
 
         if (DRY_RUN) {
           console.log(`[DRY_RUN] Would post:\n${message}\n`);
@@ -71,7 +75,7 @@ async function runProd(channel) {
             const sent = await channel.send(message);
             console.log(`✅ Posted to Discord: ${code.code}`);
 
-            // Only add to log and posted if message was sent
+            // Only log if posted
             if (!codeLog[game]) codeLog[game] = {};
             if (!codeLog[game][code.code]) {
               codeLog[game][code.code] = {
@@ -96,7 +100,6 @@ async function runProd(channel) {
     }
 
     console.log(`📝 Saving codes to codes.json...`);
-    console.log(`💾 Final codeLog:`, JSON.stringify(codeLog, null, 2));
     saveCodes(codeLog);
 
   } catch (err) {
