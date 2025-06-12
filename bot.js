@@ -66,7 +66,7 @@ async function runProd(channel) {
           ? code.rewards.join(', ')
           : 'reward not listed, but give it a try!';
 
-        const message = `${emoji} ${formattedName}:\n[${code.code}] = ${rewardText}`;
+        const message = `${emoji} ${formattedName}:\n\`${code.code}\` = ${rewardText}`;
 
         if (DRY_RUN) {
           console.log(`[DRY_RUN] Would post:\n${message}\n`);
