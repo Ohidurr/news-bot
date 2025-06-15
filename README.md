@@ -1,28 +1,24 @@
-# 📢 Discord Promo Code Bot
+# 🎮 Discord Hoyoverse Promo Code Bot
 
-A lightweight Discord bot that monitors selected Twitter/X accounts for new game promo codes (e.g., Genshin Impact, Honkai Star Rail, Marvel Rivals) and automatically posts them into a Discord channel.
+A lightweight Discord bot that fetches and posts the latest promo codes for **Genshin Impact**, **Honkai: Star Rail**, and **Zenless Zone Zero** using the [seriaati/hoyo-codes](https://github.com/seriaati/hoyo-codes) API.
 
 ---
 
 ## 🚀 Features
 
-- Monitors official accounts for keywords like `code`, `redeem`, `primogem`, etc.
-- Posts detected promo tweets into your chosen Discord channel
-- `TEST_MODE` for safe testing without hitting Twitter API rate limits
-- Organized by modules: config, settings, tests
+- 🔄 Polls the API every 3 minutes for new promo codes
+- 🎯 Posts new codes in a clean, readable format
+- 🖱️ Adds a **"Redeem Here"** button that links directly to each game's official code redemption site
+- ✅ Avoids duplicate posts using a local `codes.json` and `posted.json` system
+- 🧪 `DRY_RUN` mode for safe testing without posting to Discord
 
 ---
 
+## 📸 Example Discord Output
+🌀 Genshin Impact:
+GENSHIN123 = 100 Primogems, Mora x50
+With a button below that says:
+
+**[Redeem Here](https://genshin.hoyoverse.com/en/gift)**
+
 ---
-
-## ⚙️ Setup
-
-1. **Install dependencies**
-```bash
-npm install
-
-DISCORD_BOT_TOKEN=your-discord-bot-token
-DISCORD_CHANNEL_ID=your-channel-id
-TWITTER_BEARER_TOKEN=your-twitter-bearer-token
-
-node bot.js
