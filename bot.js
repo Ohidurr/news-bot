@@ -17,13 +17,13 @@ const codeLog = loadCodes();
 const gameEmojis = {
   'starrail': '🚂',
   'genshin': '🌀',
-  'zzz': '💤'
+  'zzz': '💤',
 };
 
 const redeemLinks = {
   'starrail': 'https://hsr.hoyoverse.com/gift',
   'genshin': 'https://genshin.hoyoverse.com/en/gift',
-  'zzz': 'https://zenless.hoyoverse.com/redemption'
+  'zzz': 'https://zenless.hoyoverse.com/redemption',
 };
 
 async function fetchCodesFromAPI(game, apiUrl) {
@@ -68,28 +68,27 @@ async function runProd(channel) {
 
         const emoji = gameEmojis[game.toLowerCase()] || '🔔';
         const formattedName = name.replace(/(^\w|\s\w)/g, c => c.toUpperCase());
-
         const rewardText = Array.isArray(code.rewards) && code.rewards.length > 0
           ? code.rewards.join(', ')
           : 'reward not listed, but give it a try!';
+        const redeemLink = redeemLinks[game.toLowerCase()] || 'https://www.hoyoverse.com/';
 
-        const message = `${emoji} ${formattedName}:\n\`${code.code}\` = ${rewardText}`;
+        const message = `${emoji} **${formattedName}**:\n\`${code.code}\` = ${rewardText}`;
 
         if (DRY_RUN) {
           console.log(`[DRY_RUN] Would post:\n${message}\n`);
         } else {
           try {
             const row = new ActionRowBuilder().addComponents(
-  new ButtonBuilder()
-    .setLabel('Redeem Here')
-    .setStyle(ButtonStyle.Link)
-    .setURL(redeemLinks[game.toLowerCase()] || 'https://www.hoyoverse.com/')
-);
+              new ButtonBuilder()
+                .setLabel('Click here to redeem')
+                .setStyle(ButtonStyle.Link)
+                .setURL(redeemLink)
+            );
 
-const sent = await channel.send({ content: message, components: [row] });
+            const sent = await channel.send({ content: message, components: [row] });
             console.log(`✅ Posted to Discord: ${code.code}`);
 
-            // Only log if posted
             if (!codeLog[game]) codeLog[game] = {};
             if (!codeLog[game][code.code]) {
               codeLog[game][code.code] = {
@@ -126,7 +125,7 @@ client.once('ready', async () => {
   try {
     const channel = await client.channels.fetch(process.env.DISCORD_CHANNEL_ID);
     await runProd(channel);
-    setInterval(() => runProd(channel), 1000 * 60 * 3);
+    setInterval(() => runProd(channel), 1000 * 60 * 3); // every 3 minutes
   } catch (err) {
     console.error('❌ Startup failed:', err.message);
   }
