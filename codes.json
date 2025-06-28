@@ -47,6 +47,46 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-06-12T16:01:08.383Z"
+    },
+    "FIGHTLIKESKIRK57": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-19T07:15:54.524Z"
+    },
+    "YTYD336W7K77": {
+      "rewards": [
+        "Mora ×10,000 Adventurer's Experience ×10 Fine Enhancement Ore ×5 Stir-Fried Fish Noodles ×5 Jueyun Chili Chicken ×5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-19T08:08:25.753Z"
+    },
+    "GIFTFROMSKIRK57": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-26T06:32:45.257Z"
+    },
+    "GIFTFROMSKIRK57 ": {
+      "rewards": [
+        "Shivada Jade Fragment ×3 Meshing Gear ×3 Fine Enhancement Ore ×3 Mora ×30,000"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-26T10:18:41.216Z"
+    },
+    "G9VY57AWQACW": {
+      "rewards": [
+        "60 primogems and five adventurer's experience"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-26T13:03:25.579Z"
     }
   },
   "hkrpg": {
@@ -81,6 +121,30 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-06-12T00:28:27.259Z"
+    },
+    "FTJ6CVTULSXP": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-20T12:44:07.176Z"
+    },
+    "ZS36CVBUMTZB": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-20T12:44:07.434Z"
+    },
+    "DTJ7CVACLBGF": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-20T12:44:07.610Z"
     }
   },
   "nap": {
@@ -115,6 +179,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-06-12T12:30:08.729Z"
+    },
+    "ZZZ20SIMI": {
+      "rewards": [
+        "60 polychrome and 6,666 dennies"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-06-26T13:03:26.008Z"
     }
   }
 }

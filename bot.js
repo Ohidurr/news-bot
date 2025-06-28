@@ -15,15 +15,15 @@ const posted = loadPostedIDs();
 const codeLog = loadCodes();
 
 const gameEmojis = {
-  'starrail': '🚂',
+  'hkrpg': '🚂',
   'genshin': '🌀',
-  'zzz': '💤',
+  'nap': '💤',
 };
 
 const redeemLinks = {
-  'starrail': 'https://hsr.hoyoverse.com/gift',
+  'hkrpg': 'https://hsr.hoyoverse.com/gift',
   'genshin': 'https://genshin.hoyoverse.com/en/gift',
-  'zzz': 'https://zenless.hoyoverse.com/redemption',
+  'nap': 'https://zenless.hoyoverse.com/redemption',
 };
 
 async function fetchCodesFromAPI(game, apiUrl) {
