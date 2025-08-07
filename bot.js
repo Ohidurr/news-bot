@@ -120,7 +120,7 @@ client.once('ready', async () => {
   try {
     const channel = await client.channels.fetch(process.env.DISCORD_CHANNEL_ID);
     await runProd(channel);
-    setInterval(() => runProd(channel), 1000 * 60 * 6); // every 3 minutes
+    setInterval(() => runProd(channel), 1000 * 60 * 3); // every 3 minutes
   } catch (err) {
     console.error('❌ Startup failed:', err.message);
   }
