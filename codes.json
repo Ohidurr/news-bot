@@ -451,6 +451,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-07-22T11:50:28.493Z"
+    },
+    "OBOLSQUAD": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-08-22T11:50:21.517Z"
     }
   }
 }
