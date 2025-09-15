@@ -58,50 +58,56 @@ async function runProd(channel) {
           if (!code || !code.code) return false;
           const isExpired = code.expires && new Date(code.expires) < new Date();
           return !isExpired && !posted.has(code.code);
-        });
+        })
+        .slice(0, 5);
 
-      if (newCodes.length === 0) continue;
+      console.log(`🆕 ${game}: ${newCodes.length} new code(s) after filter`);
 
-      const emoji = gameEmojis[game.toLowerCase()] || '🔔';
-      const formattedName = name.replace(/(^\w|\s\w)/g, c => c.toUpperCase());
-      const redeemLink = redeemLinks[game.toLowerCase()] || 'https://www.hoyoverse.com/';
+      for (const code of newCodes) {
+        console.log(`➡️ Processing code: ${code.code}`);
 
-      const codeLines = newCodes.map(code => {
-        if (!codeLog[game]) codeLog[game] = {};
-        if (!codeLog[game][code.code]) {
-          codeLog[game][code.code] = {
-            rewards: Array.isArray(code.rewards) ? code.rewards : [code.rewards || 'N/A'],
-            source: code.source,
-            status: code.status || 'OK',
-            expires: code.expires || null,
-            addedAt: new Date().toISOString()
-          };
+        const emoji = gameEmojis[game.toLowerCase()] || '🔔';
+        const formattedName = name.replace(/(^\w|\s\w)/g, c => c.toUpperCase());
+        const rewardText = Array.isArray(code.rewards) && code.rewards.length > 0
+          ? code.rewards.join(', ')
+          : 'reward not listed, but give it a try!';
+        const redeemLink = redeemLinks[game.toLowerCase()] || 'https://www.hoyoverse.com/';
+
+        const message = `${emoji} **${formattedName}**:\n\`${code.code}\` = ${rewardText}`;
+
+        if (DRY_RUN) {
+          console.log(`[DRY_RUN] Would post:\n${message}\n`);
         } else {
-          codeLog[game][code.code].status = code.status || 'OK';
-        }
+          try {
+            const row = new ActionRowBuilder().addComponents(
+              new ButtonBuilder()
+                .setLabel('Click here to redeem')
+                .setStyle(ButtonStyle.Link)
+                .setURL(redeemLink)
+            );
 
-        posted.add(code.code);
-        return `➤ \`${code.code}\``;
-      });
+            const sent = await channel.send({ content: message, components: [row] });
+            console.log(`✅ Posted to Discord: ${code.code}`);
 
-      const message = `${emoji} **${formattedName}** 🔗\n${codeLines.join('\n')}`;
+            if (!codeLog[game]) codeLog[game] = {};
+            if (!codeLog[game][code.code]) {
+              codeLog[game][code.code] = {
+                rewards: Array.isArray(code.rewards) ? code.rewards : [code.rewards || 'N/A'],
+                source: code.source,
+                status: code.status || 'OK',
+                expires: code.expires || null,
+                addedAt: new Date().toISOString()
+              };
+            } else {
+              codeLog[game][code.code].status = code.status || 'OK';
+            }
 
-      if (DRY_RUN) {
-        console.log(`[DRY_RUN] Would post:\n${message}\n`);
-      } else {
-        const row = new ActionRowBuilder().addComponents(
-          new ButtonBuilder()
-            .setLabel('Redeem Here')
-            .setStyle(ButtonStyle.Link)
-            .setURL(redeemLink)
-        );
+            posted.add(code.code);
+            savePostedIDs(posted);
 
-        try {
-          await channel.send({ content: message, components: [row] });
-          console.log(`✅ Posted ${newCodes.length} codes for ${game}`);
-          savePostedIDs(posted);
-        } catch (err) {
-          console.error(`❌ Failed to post for ${game}:`, err.message);
+          } catch (err) {
+            console.error(`❌ Failed to post to Discord: ${code.code}`, err.message);
+          }
         }
       }
     }
@@ -114,13 +120,12 @@ async function runProd(channel) {
   }
 }
 
-
 client.once('ready', async () => {
   console.log(`✅ Logged in as ${client.user.tag}`);
   try {
     const channel = await client.channels.fetch(process.env.DISCORD_CHANNEL_ID);
     await runProd(channel);
-    setInterval(() => runProd(channel), 1000 * 60 * 3); // every 3 minutes
+    setInterval(() => runProd(channel), 1000 * 60 * 6); // every 3 minutes
   } catch (err) {
     console.error('❌ Startup failed:', err.message);
   }
