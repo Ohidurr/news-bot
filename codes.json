@@ -311,6 +311,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-09-15T14:02:01.158Z"
+    },
+    "GENSHINHIGH5FIGHT": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-09-28T04:59:28.778Z"
     }
   },
   "hkrpg": {
@@ -473,6 +481,22 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-09-12T12:19:16.632Z"
+    },
+    "3S3RGX2PGL7P": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-09-24T05:33:02.295Z"
+    },
+    "MADFORMARCH": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-09-24T06:50:43.666Z"
     }
   },
   "nap": {
@@ -619,6 +643,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-09-04T18:09:26.332Z"
+    },
+    "LUCIA1015": {
+      "rewards": [
+        "300 polychrome, 30k denny, two senior investigator logs, and three w"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-09-29T12:01:00.590Z"
     }
   }
 }
