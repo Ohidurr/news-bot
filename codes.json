@@ -367,6 +367,38 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-10-13T17:03:29.894Z"
+    },
+    "0FQBAJNXCUFU": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-10-19T00:05:18.477Z"
+    },
+    "MBEYNDLU3WGZ": {
+      "rewards": [
+        "160 geodes of replication, two hero's wit, two mystic enhancement ore and 2k mora"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-10-23T11:01:52.085Z"
+    },
+    "EKLP57EFE4G4": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-10-24T00:30:26.002Z"
+    },
+    "4S5RTSV3P5CC": {
+      "rewards": [
+        "60 primogems and five adventurer's experience"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-10-24T13:20:20.323Z"
     }
   },
   "hkrpg": {
@@ -545,6 +577,46 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-09-24T06:50:43.666Z"
+    },
+    "FREEDANHENG": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-10-15T04:47:32.048Z"
+    },
+    "9BJ8YE37HM8B": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-10-15T14:03:17.338Z"
+    },
+    "YTKQGE27H57T": {
+      "rewards": [
+        "100 stellar jade and 50k credits"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-10-24T12:15:30.055Z"
+    },
+    "NBJ8HEJNZ5NF": {
+      "rewards": [
+        "100 stellar jade and five traveler's guides"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-10-24T12:15:30.055Z"
+    },
+    "UT38ZEJPY573": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-10-24T12:15:30.055Z"
     }
   },
   "nap": {
@@ -699,6 +771,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-09-29T12:01:00.590Z"
+    },
+    "ZZZ23SWEETILY": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-10-15T06:37:37.563Z"
     }
   }
 }
