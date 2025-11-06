@@ -399,6 +399,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-10-24T13:20:20.323Z"
+    },
+    "GS61RD26W966": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-10-28T23:55:01.365Z"
     }
   },
   "hkrpg": {
@@ -617,6 +625,22 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-10-24T12:15:30.055Z"
+    },
+    "VAK9XB2BCGFX": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-11-05T05:54:59.865Z"
+    },
+    "STORYOFLOVE": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-11-05T11:55:57.030Z"
     }
   },
   "nap": {
