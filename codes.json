@@ -415,6 +415,22 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-11-11T07:18:08.028Z"
+    },
+    "NTIF4NP4DO89": {
+      "rewards": [
+        "10k mora, ten adventurer's experience, five fine enhancement ore, five stir"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-11-13T11:17:00.635Z"
+    },
+    "XTFPHSEJCFYM": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-11-20T01:25:31.966Z"
     }
   },
   "hkrpg": {
@@ -819,6 +835,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-10-15T06:37:37.563Z"
+    },
+    "KRAMPUS": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-11-14T11:55:01.592Z"
     }
   }
 }
