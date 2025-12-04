@@ -431,6 +431,46 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-11-20T01:25:31.966Z"
+    },
+    "GOGOCRAFTSPEOPLE": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-11-21T12:44:58.951Z"
+    },
+    "DRAGON1203DURIN": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-11-21T13:05:18.923Z"
+    },
+    "1203KUUNRUKOUS": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-11-21T13:05:18.924Z"
+    },
+    "P3GXX56W3VG9": {
+      "rewards": [
+        "60 primogems and five adventurer's experience"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-12-04T06:21:51.625Z"
+    },
+    "XXOJ2Z7F8GJI": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-12-04T06:21:51.626Z"
     }
   },
   "hkrpg": {
@@ -673,6 +713,30 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-11-07T14:52:48.450Z"
+    },
+    "ZA39WT2AUGZB": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-11-22T11:36:39.924Z"
+    },
+    "NT39WTKSCHHF": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-11-22T12:10:30.876Z"
+    },
+    "JS2QEA3SDHFK": {
+      "rewards": [
+        "50 stellar jade and 10k credits"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-12-04T06:21:52.482Z"
     }
   },
   "nap": {
@@ -843,6 +907,22 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-11-14T11:55:01.592Z"
+    },
+    "ZZZ24KRAMPUS": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-11-24T11:32:46.879Z"
+    },
+    "DIALYN1125": {
+      "rewards": [
+        "60 polychrome and 6,666 dennies"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-12-04T06:21:52.863Z"
     }
   }
 }
