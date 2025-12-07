@@ -737,6 +737,30 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-12-04T06:21:52.482Z"
+    },
+    "PS3QWS3ACGDK": {
+      "rewards": [
+        "100 stellar jade and 5k credits"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-12-05T12:21:26.523Z"
+    },
+    "RSJ9EB2TDGC7": {
+      "rewards": [
+        "100 stellar jade and five traveler's guides"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-12-05T12:21:26.523Z"
+    },
+    "MTKQEAJAUZWB": {
+      "rewards": [
+        "100 stellar jade and four refined aether"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-12-05T12:21:26.523Z"
     }
   },
   "nap": {
