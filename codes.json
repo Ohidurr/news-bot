@@ -487,6 +487,54 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-12-24T13:08:55.319Z"
+    },
+    "DABHTY763DAZ": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-12-31T15:57:34.868Z"
+    },
+    "COMENIGHTORDAY": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-01-02T05:53:56.513Z"
+    },
+    "ZIBAI0515": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-01-02T05:53:56.513Z"
+    },
+    "GALLOPYEAH": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-01-02T05:53:56.513Z"
+    },
+    "8X73KH58KDHN": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-01-03T07:14:50.327Z"
+    },
+    "TSUKINOARIKAE": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-01-03T09:12:36.745Z"
     }
   },
   "hkrpg": {
@@ -1043,6 +1091,22 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2025-12-26T09:07:29.249Z"
+    },
+    "ZZZ2026": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2025-12-30T08:49:50.337Z"
+    },
+    "5OZ2HDP95I": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-01-03T16:05:09.418Z"
     }
   }
 }
