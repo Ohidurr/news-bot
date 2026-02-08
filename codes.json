@@ -567,6 +567,46 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-01-28T16:27:38.232Z"
+    },
+    "UOEP8CP3D62C": {
+      "rewards": [
+        "10k mora, ten adventurer's experience, five fine enhancement ore, five jueyun chili chicken, and five stir"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-02T10:07:03.927Z"
+    },
+    "JTSHBHPPKUSV": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-05T11:54:41.173Z"
+    },
+    "HUEK357YFYN3": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-05T16:39:51.382Z"
+    },
+    "HUEKYZ6R51BU": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-06T08:59:49.922Z"
+    },
+    "HUEK68JUUI37": {
+      "rewards": [
+        "Mora*10000;Adventurer's Experience*10;Fine Enhancement Ore*5;Jueyun Chili Chicken*5;Stir-Fried Fish Noodles*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-06T12:28:14.405Z"
     }
   },
   "hkrpg": {
@@ -881,6 +921,30 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-01-28T16:27:38.848Z"
+    },
+    "AHAHAHAHAHAHA": {
+      "rewards": [
+        "100 stellar jade and 50k credits"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-06T12:03:31.471Z"
+    },
+    "HITLIKETOBEAHA": {
+      "rewards": [
+        "100 stellar jade and four refined aether"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-06T12:28:14.767Z"
+    },
+    "QWQXDDLOLOMO": {
+      "rewards": [
+        "100 stellar jade and five traveler's guides"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-06T12:28:14.767Z"
     }
   },
   "nap": {
@@ -1163,6 +1227,62 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-01-30T12:23:58.785Z"
+    },
+    "ZZZ26DELUSION": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-02T07:04:00.129Z"
+    },
+    "ZZZ25GINGERPALE": {
+      "rewards": [
+        "Polychrome ×60 Denny ×6,666"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-02T07:46:29.471Z"
+    },
+    "ZZZCREATOR26": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-02T12:33:20.226Z"
+    },
+    "AODDEBUT": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-02T17:15:52.563Z"
+    },
+    "ZZZAOD0206": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-07T01:57:46.963Z"
+    },
+    "ZZZANGELS": {
+      "rewards": [
+        "50 Polychrome new!"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-07T04:28:25.401Z"
+    },
+    "ZZZCUTENESS": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-08T05:24:41.678Z"
     }
   }
 }
