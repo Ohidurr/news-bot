@@ -607,6 +607,54 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-02-06T12:28:14.405Z"
+    },
+    "HOMEWARD": {
+      "rewards": [
+        "Primogem*100;Mystic Enhancement Ore*10"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-13T12:46:17.147Z"
+    },
+    "VARKAARRIVES": {
+      "rewards": [
+        "Primogem*100;Hero's Wit*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-13T12:46:17.147Z"
+    },
+    "VISITWONDERLAND": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-13T12:46:17.147Z"
+    },
+    "8BHA0KFRG94K": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-14T13:47:54.248Z"
+    },
+    "BLINYMOIBLINY": {
+      "rewards": [
+        "Mora*20000;Hero's Wit*3;Crepes Suzette*1;Thunderclap Slash!*1;Midsommar Torte*1;Tea Break Pancake*1;Teyvat Fried Egg*2;Long Night Alight*1"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-16T06:56:17.722Z"
+    },
+    "GS64YTW65O": {
+      "rewards": [
+        "Mora*30000;Hero's Wit*3;Mystic Enhancement Ore*5;Vayuda Turquoise Sliver*3;Teachings of Freedom*3"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-16T06:56:17.722Z"
     }
   },
   "hkrpg": {
@@ -945,6 +993,62 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-02-06T12:28:14.767Z"
+    },
+    "AT45Q": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-12T12:23:11.715Z"
+    },
+    "BGF3A": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-12T12:23:11.715Z"
+    },
+    "MH5KC": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-12T12:23:11.715Z"
+    },
+    "KBJ8VZ6Y27QX": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-13T04:44:52.294Z"
+    },
+    "HAILYAOGUANG": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-13T06:31:37.286Z"
+    },
+    "XAK9QJ454SG7": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-13T08:27:02.573Z"
+    },
+    "ALETTERFORYOU": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-14T04:00:35.264Z"
     }
   },
   "nap": {
@@ -1283,6 +1387,22 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-02-08T05:24:41.678Z"
+    },
+    "ZZZGIGO": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-12T08:09:39.997Z"
+    },
+    "ZZZRAZERGOLDLAWSON": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-02-12T08:09:39.997Z"
     }
   }
 }
