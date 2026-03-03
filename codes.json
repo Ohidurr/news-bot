@@ -1065,6 +1065,22 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-02-14T04:00:35.264Z"
+    },
+    "SUB2SPARXIE": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-03-03T06:04:55.162Z"
+    },
+    "4T28RJM4MS3B": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-03-03T06:04:55.162Z"
     }
   },
   "nap": {
