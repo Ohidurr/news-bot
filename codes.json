@@ -1435,6 +1435,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-02-12T08:09:39.997Z"
+    },
+    "ZZZ27CHAMPION": {
+      "rewards": [
+        "Polychrome*60;Denny*6,666"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-03-18T03:09:54.116Z"
     }
   }
 }
