@@ -671,6 +671,54 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-02-27T01:29:57.661Z"
+    },
+    "RFVE7Z244V81": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-03-18T15:34:30.220Z"
+    },
+    "RFVEZO83458Q": {
+      "rewards": [
+        "Mora*10000;Adventurer's Experience*10;Fine Enhancement Ore*5;Stir-Fried Fish Noodles*5;Jueyun Chili Chicken*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-03-19T13:46:57.165Z"
+    },
+    "MIXF44DAP7HW": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-03-24T01:48:45.202Z"
+    },
+    "SCALEBLADE": {
+      "rewards": [
+        "Primogem*100;Mora*50000"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-03-27T12:45:45.493Z"
+    },
+    "TEMPLEOFSPACE": {
+      "rewards": [
+        "Primogem*100;Hero's Wit*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-03-27T12:45:45.493Z"
+    },
+    "LINNEACLASSTIME": {
+      "rewards": [
+        "Primogem*100;Mystic Enhancement Ore*10"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-03-27T12:45:45.493Z"
     }
   },
   "hkrpg": {
@@ -1081,6 +1129,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-03-03T06:04:55.162Z"
+    },
+    "ACEDETECTIVE": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-03-26T00:09:51.424Z"
     }
   },
   "nap": {
@@ -1443,6 +1499,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-03-18T03:09:54.116Z"
+    },
+    "ZZZANIMATE": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-03-20T02:47:55.798Z"
     }
   }
 }
