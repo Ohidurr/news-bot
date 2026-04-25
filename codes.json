@@ -743,6 +743,30 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-04-08T06:11:29.617Z"
+    },
+    "A0NBWRZZI3XJ": {
+      "rewards": [
+        "Primogem*20;Geode of Replication*160"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-04-25T16:56:10.204Z"
+    },
+    "SNEZHNAYA20260812": {
+      "rewards": [
+        "Primogem*200"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-04-25T16:56:10.205Z"
+    },
+    "G5HS7EMI47D0": {
+      "rewards": [
+        "Primogem*60;Adventurer's Experience*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-04-25T16:56:10.205Z"
     }
   },
   "hkrpg": {
@@ -1161,6 +1185,22 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-03-26T00:09:51.424Z"
+    },
+    "EB28LCJRU4W3": {
+      "rewards": [
+        "50 stellar jade and 10k credits"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-04-25T16:56:11.251Z"
+    },
+    "SILVERWOLFLV999": {
+      "rewards": [
+        "three traveler's guides and two badge battle robes"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-04-25T16:56:11.251Z"
     }
   },
   "nap": {
@@ -1539,6 +1579,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-04-08T02:38:43.858Z"
+    },
+    "PROMEIA": {
+      "rewards": [
+        "300 polychrome, 30k denny, two senior investigator logs, and three W"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-04-25T16:56:11.981Z"
     }
   }
 }
