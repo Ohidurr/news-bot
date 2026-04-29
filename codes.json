@@ -1587,6 +1587,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-04-25T16:56:11.981Z"
+    },
+    "ZZZ28HERO": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-04-28T08:24:27.914Z"
     }
   }
 }
