@@ -767,6 +767,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-04-25T16:56:10.205Z"
+    },
+    "FEOMBCVX6UO7": {
+      "rewards": [
+        "Mora*10000;Adventurer's Experience*10;Fine Enhancement Ore*5;Jueyun Chili Chicken*5;Stir-Fried Fish Noodles*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-04-29T17:57:16.634Z"
     }
   },
   "hkrpg": {
@@ -1201,6 +1209,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-04-25T16:56:11.251Z"
+    },
+    "QS395DJQU4HK": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-05-03T11:59:28.014Z"
     }
   },
   "nap": {
