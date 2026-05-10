@@ -775,6 +775,38 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-04-29T17:57:16.634Z"
+    },
+    "NICOLACOCO": {
+      "rewards": [
+        "Primogem*100;Hero's Wit*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-05-08T12:33:23.142Z"
+    },
+    "BACKTOSUMERU": {
+      "rewards": [
+        "100 primogems and ten mystic enhancement ore"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-05-08T12:33:23.142Z"
+    },
+    "WILLTOWIN": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-05-08T12:47:50.097Z"
+    },
+    "PFY1S40I88T9": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-05-08T18:47:41.404Z"
     }
   },
   "hkrpg": {
