@@ -807,6 +807,22 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-05-08T18:47:41.404Z"
+    },
+    "OHOHONICOLE": {
+      "rewards": [
+        "Primogem*30;Mora*20000;Tattered Warrant*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-05-23T22:15:13.064Z"
+    },
+    "MAGENICOLESPUZZLE": {
+      "rewards": [
+        "Primogem*60;Midsommar Torte*1;Fruit Tandem Turnovers*1;Chenyu Adeptea*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-05-23T22:15:13.064Z"
     }
   },
   "hkrpg": {
@@ -1249,6 +1265,22 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-05-03T11:59:28.014Z"
+    },
+    "VS3Q5VK9CMFP": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-05-13T06:30:12.590Z"
+    },
+    "SITBYEVANESCIA": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-05-13T10:21:46.130Z"
     }
   },
   "nap": {
