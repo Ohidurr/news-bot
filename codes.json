@@ -823,6 +823,38 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-05-23T22:15:13.064Z"
+    },
+    "NMI20MAJGIBP": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-05-23T22:27:14.624Z"
+    },
+    "YMYD76U85Z1U": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-05-27T10:34:19.408Z"
+    },
+    "YMYDGB318H98": {
+      "rewards": [
+        "Mora*10000;Adventurer's Experience*10;Fine Enhancement Ore*5;Jueyun Chili Chicken*5;Stir-Fried Fish Noodles*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-06-04T23:46:38.227Z"
+    },
+    "LCXGEA5SX65L": {
+      "rewards": [
+        "Mora*10000;Adventurer's Experience*10;Fine Enhancement Ore*5;Jueyun Chili Chicken*5;Stir-Fried Fish Noodles*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-06-10T21:44:36.066Z"
     }
   },
   "hkrpg": {
@@ -1281,6 +1313,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-05-13T10:21:46.130Z"
+    },
+    "BLADEFITCHECK": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-06-01T06:54:30.600Z"
     }
   },
   "nap": {
@@ -1675,6 +1715,38 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-04-28T08:24:27.914Z"
+    },
+    "BEYONDTHECLOUDS": {
+      "rewards": [
+        "Polychrome*300;Senior Investigator Log*2;W-Engine Energy Module*3;Denny*30,000"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-06-06T13:03:01.305Z"
+    },
+    "ZZZ30BANGBOO": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-06-06T19:24:35.118Z"
+    },
+    "ZZZSEASON3": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-06-09T04:54:20.831Z"
+    },
+    "ROSCAELIFER0617": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-06-09T04:54:20.832Z"
     }
   }
 }
