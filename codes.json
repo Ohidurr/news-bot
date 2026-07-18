@@ -855,6 +855,22 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-06-10T21:44:36.066Z"
+    },
+    "LEGEDILJKSGM": {
+      "rewards": [
+        "Primogem*60;Adventurer's Experience*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-18T04:34:01.626Z"
+    },
+    "EZSB8889C2BZ": {
+      "rewards": [
+        "Mora*10000;Adventurer's Experience*10;Fine Enhancement Ore*5;Jueyun Chili Chicken*5;Stir-Fried Fish Noodles*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-18T04:34:01.626Z"
     }
   },
   "hkrpg": {
@@ -1321,6 +1337,22 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-06-01T06:54:30.600Z"
+    },
+    "PSJQKBQPYGMT": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-18T04:34:02.827Z"
+    },
+    "BESTCOFFEEEVER": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-18T04:34:02.827Z"
     }
   },
   "nap": {
@@ -1747,6 +1779,54 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-06-09T04:54:20.832Z"
+    },
+    "ZZZSTEAM": {
+      "rewards": [
+        "60 polychrome, two w"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-18T04:34:03.119Z"
+    },
+    "ZZZSUSHIRO": {
+      "rewards": [
+        "Senior Investigator Log*3;Denny*30,000"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-18T04:34:03.119Z"
+    },
+    "CBW0884678": {
+      "rewards": [
+        "Denny*20,000"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-18T04:34:03.119Z"
+    },
+    "ZZZY2ANNIV": {
+      "rewards": [
+        "Polychrome*300;Senior Investigator Log*2;W-Engine Energy Module*3;Denny*30,000"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-18T04:34:03.119Z"
+    },
+    "ZZZDREAMLAND": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-18T04:34:03.119Z"
+    },
+    "ZZZ31REMIELLE": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-18T04:34:03.119Z"
     }
   }
 }
