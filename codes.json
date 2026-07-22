@@ -1827,6 +1827,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-07-18T04:34:03.119Z"
+    },
+    "ZZZ2YEAR": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-18T06:04:43.823Z"
     }
   }
 }
