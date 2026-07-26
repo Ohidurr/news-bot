@@ -871,6 +871,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-07-18T04:34:01.626Z"
+    },
+    "UIVI13C8X156": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-23T02:02:45.848Z"
     }
   },
   "hkrpg": {
@@ -1353,6 +1361,14 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-07-18T04:34:02.827Z"
+    },
+    "STARRAILFATE2026": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-24T12:24:06.206Z"
     }
   },
   "nap": {
