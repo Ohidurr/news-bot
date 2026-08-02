@@ -879,6 +879,46 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-07-23T02:02:45.848Z"
+    },
+    "UIVIBUQM6Q8A": {
+      "rewards": [
+        "Mora*10000;Adventurer's Experience*10;Fine Enhancement Ore*5;Jueyun Chili Chicken*5;Stir-Fried Fish Noodles*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-30T08:10:52.215Z"
+    },
+    "ONTOSNEZHNAYA": {
+      "rewards": [
+        "Primogem*100;Hero's Wit*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-31T13:09:54.412Z"
+    },
+    "ODETTE0812": {
+      "rewards": [
+        "Primogem*100;Mora*50000"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-31T13:09:54.412Z"
+    },
+    "EVERWINTER": {
+      "rewards": [
+        "Primogem*100;Mystic Enhancement Ore*10"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-31T13:09:54.412Z"
+    },
+    "2BJ64QRZ7RT8": {
+      "rewards": [
+        "Primogem*60;Adventurer's Experience*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-31T17:07:19.231Z"
     }
   },
   "hkrpg": {
@@ -1851,6 +1891,30 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-07-18T06:04:43.823Z"
+    },
+    "ZZZMEIJI": {
+      "rewards": [
+        "Senior Investigator Log*3;W-Engine Energy Module*3;Denny*30,000"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-27T10:18:24.554Z"
+    },
+    "REMIELLE0729": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-07-28T12:54:17.001Z"
+    },
+    "VOIDWATCHINGYOU": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-08-02T12:33:11.874Z"
     }
   }
 }
