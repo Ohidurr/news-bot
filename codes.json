@@ -919,6 +919,38 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-07-31T17:07:19.231Z"
+    },
+    "P7G0XA30H0Q3": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-08-15T19:41:11.942Z"
+    },
+    "XVIZDH2B9WGX": {
+      "rewards": [
+        "Mora*10000;Adventurer's Experience*10;Fine Enhancement Ore*5;Jueyun Chili Chicken*5;Stir-Fried Fish Noodles*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-08-15T19:41:11.942Z"
+    },
+    "GS70XRNWFB": {
+      "rewards": [
+        "Mora*30000;Hero's Wit*3;Fine Enhancement Ore*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-08-15T19:41:11.942Z"
+    },
+    "MYSNEZHNAYACAREER": {
+      "rewards": [
+        "Primogem*160;Mora*20000;Hero's Wit*3"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-08-15T19:41:11.942Z"
     }
   },
   "hkrpg": {
