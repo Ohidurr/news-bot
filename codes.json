@@ -975,6 +975,94 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-09-10T01:32:10.937Z"
+    },
+    "PRIMADONNA": {
+      "rewards": [
+        "Primogem*100;Mora*50000"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-12T13:08:43.581Z"
+    },
+    "REKVIEM": {
+      "rewards": [
+        "Primogem*100;Mystic Enhancement Ore*10"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-12T13:08:43.582Z"
+    },
+    "VESNA0923": {
+      "rewards": [
+        "Primogem*100;Hero's Wit*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-12T13:08:43.582Z"
+    },
+    "Y6JYMKV6JKSL": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-13T06:08:59.048Z"
+    },
+    "GS71XYNSYJ": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-16T15:15:44.116Z"
+    },
+    "GS71XAVWDS": {
+      "rewards": [
+        "Mora*30000;Hero's Wit*3;Mystic Enhancement Ore*5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-18T23:08:26.957Z"
+    },
+    "PLDXI8VFKI7C": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-27T00:39:51.653Z"
+    },
+    "VESNAONPATROL": {
+      "rewards": [
+        "Primogem*40;Mora*20000;Hero's Wit*3"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-27T00:39:51.654Z"
+    },
+    "EPIC2026": {
+      "rewards": [
+        "40 primogems, five hero's wit, and 20k mora"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-27T00:39:51.654Z"
+    },
+    "DATG5HG1PL89": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-27T00:39:51.654Z"
+    },
+    "PNKZ3WLNN8G6": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-27T00:39:51.654Z"
     }
   },
   "hkrpg": {
@@ -1489,6 +1577,46 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-09-10T01:32:11.944Z"
+    },
+    "WAVEFLAIRSTYLE": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-12T09:27:46.218Z"
+    },
+    "WA4AV2F24PYX": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-12T09:27:46.218Z"
+    },
+    "MALSV2F247FP": {
+      "rewards": [
+        "Stellar Jade x100, Refined Aether x4"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-20T12:33:12.120Z"
+    },
+    "KA5SV3FJM7WX": {
+      "rewards": [
+        "Stellar Jade x100, Credit x50000"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-20T12:33:12.120Z"
+    },
+    "7S4AD2X35NE3": {
+      "rewards": [
+        "Stellar Jade x100, Traveler's Guide x5"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-20T12:33:12.120Z"
     }
   },
   "nap": {
@@ -1995,6 +2123,30 @@
       "status": "OK",
       "expires": null,
       "addedAt": "2026-08-02T12:33:11.874Z"
+    },
+    "ZZZGRIND32": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-10T17:08:44.520Z"
+    },
+    "ZZZINK32": {
+      "rewards": [
+        "N/A"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-10T17:15:23.341Z"
+    },
+    "ZZZVOID32": {
+      "rewards": [
+        "Polychrome*20;Denny*2,222"
+      ],
+      "status": "OK",
+      "expires": null,
+      "addedAt": "2026-09-13T07:18:04.968Z"
     }
   }
 }
